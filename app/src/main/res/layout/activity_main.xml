@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager_imageslider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="100dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:layout_marginTop="0dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="1dp">
+        </androidx.viewpager2.widget.ViewPager2>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:padding="4dp"
+            android:text="اطمن برنامج بيساعدك تعرف ابنك/بنتك بيعانوا من ايه من غير ما تكلف نفسك او تتعب من اللف علي الدكاتره و اماكن دور الرعايه و هيسهل عليك الارهاق اللي هتواجهه من"
+            android:textAlignment="center"
+            android:textColor="#AA311C"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="260dp"
+            android:layout_gravity="right"
+            android:background="#EC5F3B"
+            android:padding="4dp"
+            android:text="next"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

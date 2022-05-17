@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2tamen</string>
+    <string name="intro"> 2tamen is a program that helps you know what your son/daughter is suffering from without costing yourself or getting tired of looking at doctors and places of care homes, and it will make it easier for you to exhaustion that you will face from</string>
+    <string name="next">next</string>
+    <string name="change_language">ENG</string>
+    <string name="q1">Does s/he join in playing games with other children easily?</string>
+    <string name="q2">Does s/he come up to you spontaneously for a chat?</string>
+    <string name="q3">Does s/he have difficulty understanding the rules for polite behavior?</string>
+    <string name="q4">Does s/he like to do things over and over again, in the same way all the time?</string>
+    <string name="q5">Does s/he make normal eye-contact ?</string>
+    <string name="q6">Are people important to him/her?</string>
+    <string name="q7">Does s/he mostly have the same interests as his/her peers ??</string>
+    <string name="q8">Does s/he have odd or unusual phrases ?</string>
+    <string name="q9">Does s/he often do or say things that are tactless or socially inappropriate ?</string>
+    <string name="q10">Have teachers/health visitors ever expressed any concerns about his/her development ?</string>
+    <string name="fill_this_test">fill this test</string>
+</resources>

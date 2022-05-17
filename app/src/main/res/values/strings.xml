@@ -1,3 +1,18 @@
 <resources>
+
     <string name="app_name">2tamen</string>
+    <string name="change_language">اللغه</string>
+    <string name="next">التالي</string>
+    <string name="intro">اطمن برنامج بيساعدك تعرف ابنك/بنتك بيعانوا من ايه من غير ما تكلف نفسك او تتعب من اللف علي الدكاتره و اماكن دور الرعايه و هيسهل عليك الارهاق اللي هتواجهه من</string>
+    <string name="fill_this_test">fill this test</string>
+    <string name="q10">Have teachers/health visitors ever expressed any concerns about his/her development ?</string>
+    <string name="q9">Does s/he often do or say things that are tactless or socially inappropriate ?</string>
+    <string name="q8">Does s/he have odd or unusual phrases ?</string>
+    <string name="q7">Does s/he mostly have the same interests as his/her peers ?</string>
+    <string name="q6">Are people important to him/her?</string>
+    <string name="q5">Does s/he make normal eye-contact ?</string>
+    <string name="q4">Does s/he like to do things over and over again, in the same way all the time?</string>
+    <string name="q3">Does s/he have difficulty understanding the rules for polite behavior?</string>
+    <string name="q2">Does s/he come up to you spontaneously for a chat?</string>
+    <string name="q1">Does s/he join in playing games with other children easily?</string>
 </resources>

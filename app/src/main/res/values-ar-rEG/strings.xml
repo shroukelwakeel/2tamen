@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2tamen</string>
+    <string name="intro">اطمن برنامج بيساعدك تعرف ابنك/بنتك بيعانوا من ايه من غير ما تكلف نفسك او تتعب من اللف علي الدكاتره و اماكن دور الرعايه و هيسهل عليك الارهاق اللي هتواجهه من</string>
+    <string name="next">التالي</string>
+    <string name="change_language">عربي</string>
+    <string name="q1">هل يشارك / تشارك في ممارسة الألعاب مع الأطفال الآخرين بسهولة؟</string>
+    <string name="q2">هل يأتي إليك تلقائيًا للدردشة؟</string>
+    <string name="q3">هل يجد صعوبة في فهم قواعد السلوك المهذب؟</string>
+    <string name="q4">هل يحب القيام بالأشياء مرارًا وتكرارًا ، بنفس الطريقة طوال الوقت؟</string>
+    <string name="q5">هل يقوم باتصال عادي بالعين؟</string>
+    <string name="q6">هل الناس مهمون بالنسبة له / لها؟</string>
+    <string name="q7">هل لديه في الغالب نفس الاهتمامات مثل أقرانه؟</string>
+    <string name="q8">هل لديه / لديها جمل غريبة أو غير عادية؟</string>
+    <string name="q9">هل يفعل أو يقول غالبًا أشياء لا لبس فيها أو غير لائقة اجتماعيًا؟</string>
+    <string name="q10">هل أبدى المعلمون / الزائرون الصحيون أي مخاوف بشأن تطوره / تطورها؟</string>
+    <string name="fill_this_test">املاء هذا الاختبار</string>
+</resources>

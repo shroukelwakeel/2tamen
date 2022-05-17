@@ -4,60 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@mipmap/b"
+
     tools:context=".MainActivity">
-
-
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <Button
+            android:id="@+id/changelang"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/btn2"
+            android:fontFamily="casual"
+            android:text="@string/change_language"
+            android:textColor="#9D7BB3"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager_imageslider"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="320dp"
             android:layout_gravity="center"
-            android:padding="100dp"
+            android:layout_margin="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="3dp"
+            android:padding="0dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
             android:paddingStart="0dp"
             android:paddingEnd="0dp"
-            android:layout_marginTop="0dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="-2dp"
-            tools:layout_editor_absoluteY="1dp">
-        </androidx.viewpager2.widget.ViewPager2>
+            tools:layout_editor_absoluteY="1dp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/intro"
             android:layout_width="match_parent"
-            android:layout_height="173dp"
+            android:layout_height="301dp"
             android:layout_gravity="center"
             android:layout_marginTop="0dp"
-            android:padding="4dp"
-            android:text="اطمن برنامج بيساعدك تعرف ابنك/بنتك بيعانوا من ايه من غير ما تكلف نفسك او تتعب من اللف علي الدكاتره و اماكن دور الرعايه و هيسهل عليك الارهاق اللي هتواجهه من"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="5dp"
+            android:text="@string/intro"
             android:textAlignment="center"
-            android:textColor="#AA311C"
-            android:textSize="24dp"
-            android:textStyle="bold"
+            android:textColor="#9D7BB3"
+            android:textSize="20sp"
+            android:textStyle="normal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:layout_width="114dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginLeft="260dp"
+
+            android:id="@+id/next"
+            android:layout_width="106dp"
+            android:layout_height="50dp"
             android:layout_gravity="right"
-            android:background="#EC5F3B"
-            android:padding="4dp"
-            android:text="next"
-            android:textColor="@color/white"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/btn2"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:text="@string/next"
+            android:textColor="#9D7BB3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
 
     </LinearLayout>
 
